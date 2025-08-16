@@ -19,7 +19,7 @@ return {
 	vim.diagnostic.config({
 		virtual_text = {
 			enabled = true,
-			severity = { min = vim.diagnostic.severity.HINT }, -- Display hints as well
+			severity = { min = vim.diagnostic.severity.HINT },
 		},
 	})
 }
