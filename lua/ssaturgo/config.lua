@@ -1,4 +1,4 @@
-vim.g.loaded_netrw = 1
+-- vim.g.loaded_netrw = 1
 
 vim.wo.number = true -- add numbers to line
 vim.opt.fillchars = {eob = " "} -- replace '~' symbols to blank space
