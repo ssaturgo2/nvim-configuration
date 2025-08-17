@@ -17,6 +17,12 @@ return {
 		end,
 	},
 	vim.diagnostic.config({
+        signs = {
+            [vim.diagnostic.severity.ERROR] = "E",
+            [vim.diagnostic.severity.WARN] = "W",
+            [vim.diagnostic.severity.INFO] = "I",
+            [vim.diagnostic.severity.HINT] = "H",
+        },
 		virtual_text = {
 			enabled = true,
 			severity = { min = vim.diagnostic.severity.HINT },
