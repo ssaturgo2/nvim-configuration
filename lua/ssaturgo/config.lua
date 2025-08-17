@@ -3,7 +3,6 @@ vim.g.mapleader = " "
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
-
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
@@ -15,10 +14,9 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 vim.cmd.colorscheme('gruvbox-material') -- set theme
 vim.opt.termguicolors = true
 
--- line numbers
-vim.opt.number = true -- add numbers to line
+-- numbers
+vim.opt.number = true
 vim.opt.relativenumber = true
-vim.o.statuscolumn = "%{v:relnum}"
 
 -- indentations
 vim.opt.tabstop = 4
