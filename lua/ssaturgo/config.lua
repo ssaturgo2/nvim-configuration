@@ -13,6 +13,7 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 -- theme
 vim.cmd.colorscheme('gruvbox-material') -- set theme
 vim.opt.termguicolors = true
+vim.opt.winborder = "rounded"
 
 -- numbers
 vim.opt.number = true
