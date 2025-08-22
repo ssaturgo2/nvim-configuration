@@ -13,9 +13,10 @@ return {
         scroll = { enabled = true },
         statuscolumn = { enabled = true },
         words = { enabled = true },
-        terminal = {enabled = true},
+        lazygit = { enabled = true},
     },
     keys = {
         {"<leader>t", function () Snacks.picker.explorer() end},
+        {"<leader>ga", function () Snacks.lazygit() end},
     }
 }
