@@ -1,6 +1,6 @@
 vim.lsp.enable({
     "luals",
-    "tsserver",
+    "ts_ls",
 })
 vim.diagnostic.config({
     globals = {'vim'},
