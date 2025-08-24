@@ -1,5 +1,8 @@
-vim.lsp.config['tsls'] = {
-    cmd = { 'typescript-language-server', '--stdio' },
+vim.lsp.config['ts_ls'] = {
+    cmd = {
+        'typescript-language-server',
+        '--stdio',
+    },
     filetypes = {
         'javascript',
         'javascriptreact',
@@ -13,6 +16,6 @@ vim.lsp.config['tsls'] = {
         'yarn.lock',
         'pnpm-lock.yaml',
         'bun.lockb',
-        'bun.lock'
+        'bun.lock',
     },
 }
